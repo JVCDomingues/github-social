@@ -1,0 +1,77 @@
+.user-container {
+    margin: 20px;
+}
+
+.user-container article {
+    margin: 20px auto 0;
+    background: #fff;
+    max-width: 550px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.user-container article img {
+    max-width: 100px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.card-header .card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title small {
+    padding: 0 5px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.user-container article span {
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.user-container article p {
+    font-size: 16px;
+    margin-top: 13px;
+    padding: 0 5px;
+}
+
+.user-container article a {
+    text-decoration: none;
+    color: #fff;
+    background: #500fb9cc;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s;
+    margin-top: 25px;
+}
+
+.user-container article a:hover {
+    background: #3f0c90cc;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info .info {
+    font-weight: bold;
+}
